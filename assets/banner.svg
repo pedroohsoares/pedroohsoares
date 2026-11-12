@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-label="Pedro H. Soares — Software Developer · Web · Digital Strategy">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1A0B33"/>
+      <stop offset="0.55" stop-color="#3B1A6B"/>
+      <stop offset="1" stop-color="#5B2A9E"/>
+    </linearGradient>
+    <linearGradient id="wave1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2A1252" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#4A2285" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="wave2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0D1117"/>
+      <stop offset="1" stop-color="#0D1117"/>
+    </linearGradient>
+    <clipPath id="r"><rect width="1200" height="280" rx="14"/></clipPath>
+  </defs>
+  <g clip-path="url(#r)">
+    <rect width="1200" height="280" fill="url(#bg)"/>
+    <path d="M0 215 C 220 175, 420 250, 680 215 S 1040 170, 1200 205 L1200 280 L0 280 Z" fill="url(#wave1)">
+      <animate attributeName="d" dur="9s" repeatCount="indefinite"
+        values="M0 215 C 220 175, 420 250, 680 215 S 1040 170, 1200 205 L1200 280 L0 280 Z;
+                M0 205 C 240 245, 440 180, 680 220 S 1040 245, 1200 215 L1200 280 L0 280 Z;
+                M0 215 C 220 175, 420 250, 680 215 S 1040 170, 1200 205 L1200 280 L0 280 Z"/>
+    </path>
+    <path d="M0 245 C 260 225, 520 268, 800 242 S 1080 235, 1200 250 L1200 280 L0 280 Z" fill="url(#wave2)" opacity="0.85"/>
+    <text x="600" y="125" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="78" font-weight="800" fill="#FFFFFF" letter-spacing="-2">Pedro Soares</text>
+    <text x="600" y="168" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="25" font-weight="600" fill="#EDE4FF">Software Developer · Web · Estratégia Digital</text>
+  </g>
+</svg>
